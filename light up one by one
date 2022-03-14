@@ -1,0 +1,13 @@
+export function beforeRender(delta) {
+  t0=time(40*1/65.536)
+  t1 = time(66*1/65.536)
+}
+
+export function render(index) {
+  if(index<=floor(t1*66)&&index>=floor(t1*40)){
+ 
+    rgb(1,.5,1)
+  }else{
+    rgb(0,0,0)
+  }
+}
