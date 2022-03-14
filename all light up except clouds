@@ -1,0 +1,9 @@
+export function render(index) {
+  red = green = blue = 0
+  if (18<=index && index <= 39)  {rgb(0.45,0.5,0)  }else
+  if (67<=index && index <= 90)  {rgb(0.45,0.5,0)  }else
+  if (40<=index && index <= 52)  {rgb(0.55,0.3,0.3)  }else
+  if (53<=index && index <= 66)  {rgb(0.6,0.15,0.5)  }else
+  if (91<=index && index <= 100)  {rgb(.5,.35,0)  }else{
+  rgb(red, green, blue)}
+}
