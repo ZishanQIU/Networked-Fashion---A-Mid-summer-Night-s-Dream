@@ -1,0 +1,45 @@
+//Cloud 1
+
+export function render(index) {
+  red = green = blue = 0
+  if (index == 0 || index == 15 || index == 16)  red = green = blue = 1
+  rgb(red, green, blue)
+}
+
+
+//Cloud 2
+
+export function render(index) {
+  red = green = blue = 0
+  if (index == 0 || index == 15 || index == 16 || index == 1 || index == 14 || index == 17)  red = green = blue = 1
+  rgb(red, green, blue)
+}
+
+
+
+//Cloud 3
+
+export function render(index) {
+  red = green = blue = 0
+  if (index == 0 || index == 15 || index == 16 || index == 1 || index == 14 || index == 17 || index == 2 || index == 13)  red = green = blue = 1
+  rgb(red, green, blue)
+}
+
+
+//Cloud 4
+
+export function render(index) {
+  red = green = blue = 0
+  if (index == 0 || index == 15 || index == 16 || index == 1 || index == 14 || index == 17 || index == 2 || index == 13 || index == 12 || index == 3 || index == 4 || index == 11 )  red = green = blue = 1
+  rgb(red, green, blue)
+}
+
+
+
+//Cloud 5
+
+export function render(index) {
+  red = green = blue = 0
+  if (index == 0 || index == 15 || index == 16 || index == 1 || index == 14 || index == 17 || index == 2 || index == 13 || index == 12 || index == 3 || index == 4 || index == 11 || index == 5 || index == 10 || index == 6 || index == 7 || index == 8 || index == 9)  red = green = blue = 1
+  rgb(red, green, blue)
+}
