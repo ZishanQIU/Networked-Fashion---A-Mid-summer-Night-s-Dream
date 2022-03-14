@@ -1,0 +1,39 @@
+//Pattern 1
+
+export function render(index) {
+  red = green = blue = 0
+  if (40<=index && index <= 45)  {rgb(0.45,0,0.5)  }else
+  if (67<=index && index <= 79)  {rgb(.5,.5,0)  }else{
+  rgb(red, green, blue)}
+}
+
+
+//Pattern 2
+
+export function render(index) {
+  red = green = blue = 0
+  if (46<=index && index <= 52)  {rgb(0.45,0,0.5)  }else
+  if (80<=index && index <= 90)  {rgb(.5,.5,0)  }else{
+  rgb(red, green, blue)}
+}
+
+
+//Pattern 3
+
+export function render(index) {
+  red = green = blue = 0
+  if (40<=index && index <= 45)  {rgb(0.45,0,0.5)  }else
+  if (70<=index && index <= 80)  {rgb(.5,.5,0)  }else
+  if (18<=index && index <= 39)  {rgb(.5,.5,0)  }else{
+  rgb(red, green, blue)}
+}
+
+//Pattern 4
+
+export function render(index) {
+  red = green = blue = 0
+  if (46<=index && index <=52)  {rgb(0.6,0.3,0.45)  }else
+  if (79<=index && index <= 89)  {rgb(.5,.5,0)  }else
+  if (18<=index && index <= 39)  {rgb(.5,.5,0)  }else{
+  rgb(red, green, blue)}
+}
