@@ -1,0 +1,20 @@
+export function render(index) {
+  if (40<=index && index <=52)  {
+  red = time(.015*2.3)
+  green = 0
+  blue = 0.8
+  rgb(red, green, blue)
+  }
+ if (18<=index && index <=39)  {
+  red = green = blue = 0
+  rgb(red, green, blue)
+  }
+  if (53<=index && index <=99)  {
+  red = green = blue = 0
+  rgb(red, green, blue)
+  }
+  if (0<=index && index<=17){
+    red = green = blue = 1
+  rgb(red, green, blue)
+  }
+}
