@@ -1,0 +1,11 @@
+export function beforeRender(delta) {
+  t1 = time(pixelCount*1/65.536)
+}
+
+export function render(index) {
+  if(index==floor(t1*pixelCount)){
+    
+    rgb(1,.5,0)
+  }
+  
+}
