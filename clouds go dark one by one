@@ -1,0 +1,25 @@
+//Clouds -1
+
+export function render(index) {
+  red = green = blue = 0
+  if (index == 0 || index == 15 || index == 16 || index == 1 || index == 14 || index == 17 || index == 12 || index == 3  || index == 5 || index == 10 || index == 6  || index == 8 || index == 9)  red = green = blue = 1
+  if (40<=index && index<=52) red = blue = 0.3
+  rgb(red, green, blue)
+}
+
+
+//Clouds -2
+
+export function render(index) {
+  red = green = blue = 0
+  if (40<=index && index<=52) red = blue = 0.3
+  rgb(red, green, blue)
+}
+
+
+//Clouds -3 (dark)
+
+export function render(index) {
+  red = green = blue = 0
+  rgb(red, green, blue)
+}
